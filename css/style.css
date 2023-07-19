@@ -1,0 +1,47 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* HEADERIII */
+header {
+    display: flex;
+    justify-content: space-around;
+    border: 1px black solid;
+    background-color: #595959;
+}
+
+header p {
+    font-size: 40px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    padding-top: 40px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+li a {
+    font-size: 20px;
+    color: rgb(184, 187, 191);
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.active {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.contactborder {
+    border: 1px solid rgb(150, 152, 154);;
+    padding: 16px 48px;
+    border-radius: 41px;
+}
+
+
+SECTION 1
