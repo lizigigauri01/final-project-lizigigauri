@@ -7,7 +7,6 @@ html {
 header {
     display: flex;
     justify-content: space-around;
-    border: 1px black solid;
     background-color: #595959;
 }
 
@@ -41,7 +40,64 @@ li a {
     border: 1px solid rgb(150, 152, 154);;
     padding: 16px 48px;
     border-radius: 41px;
+    color: white;
 }
 
 
-SECTION 1
+/* SECTION 1 */
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+    border: 1px black solid;
+}
+
+.s1 {
+    background-color: #595959;
+    height: 668px;
+}
+
+.s1div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.s1div img {
+    height: 500px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.emineminfo h2 {
+    font-family: 'Fjalla One', sans-serif;;
+    font-weight: 700;
+    font-size: 64px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.emineminfo p {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    color: rgb(184, 187, 191);
+}
+
+.emineminfo h3 {
+    color: #1B1C2B;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 64px;
+    padding: 16px 56px;
+    max-width: 230px;
+    width: 100%;
+    border-radius: 41px;
+    background-color: #d2ce7b;
+}
+
+.emineminfo {
+    max-width: 500px;
+    padding: 50px 50px;
+}
