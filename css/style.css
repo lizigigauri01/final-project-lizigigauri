@@ -101,3 +101,67 @@ li a {
     max-width: 500px;
     padding: 50px 50px;
 }
+
+
+
+/* SECTIONNN 2 */
+
+.s2 {
+    height: 750px;
+    background-color: #F4F6FC;
+}
+
+.cards img {
+    height: 30px;
+    max-width: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.musicwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards {
+    max-width: 325px;
+    padding: 48px 38px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    margin: 20px 30px;
+}
+
+.cards p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #5f5f66;
+    padding-top: 12px;
+}
+
+.cards a {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.s2text {
+    color: #282938;
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    margin-left: 290px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    padding-top: 40px;
+}
