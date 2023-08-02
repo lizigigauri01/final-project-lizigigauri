@@ -172,6 +172,7 @@ li a {
 
 .s3 {
     display: flex;
+    margin-top: 135px;
 }
 
 .s3left h3 {
@@ -230,6 +231,7 @@ li a {
     font-weight: 500;
     line-height: 1.6;
     width: 620px;
+    padding-bottom: 60px;
 }
 
 
