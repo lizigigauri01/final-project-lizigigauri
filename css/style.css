@@ -216,6 +216,7 @@ li a {
     font-style: normal;
     font-weight: 500;
     line-height: 36px;
+    padding-bottom: 16px;
 }
 .answer {
     display: flex;
@@ -230,6 +231,8 @@ li a {
     line-height: 1.6;
     width: 620px;
 }
+
+
 .N2 {
     display: flex;
 }
@@ -253,4 +256,5 @@ li a {
     font-weight: 500;
     line-height: 36px;
     width: 540px;
+    padding-bottom: 64px;
 }
