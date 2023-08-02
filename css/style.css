@@ -27,7 +27,7 @@ nav ul {
 
 li a {
     font-size: 20px;
-    color: rgb(184, 187, 191);
+    color: #BBBBCB;
     font-family: 'Fjalla One', sans-serif;
 }
 
@@ -107,7 +107,7 @@ li a {
 /* SECTIONNN 2 */
 
 .s2 {
-    height: 750px;
+    height: 1000px;
     background-color: #F4F6FC;
 }
 
@@ -131,13 +131,12 @@ li a {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 1px rgba(88, 85, 85, 0.453) solid;
     margin: 20px 30px;
     transition: scale 400ms;
 }
 
 .cards p {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -147,11 +146,10 @@ li a {
 
 .cards a {
     color: #282938;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    text-decoration: underline;
 }
 
 .s2text {
@@ -165,5 +163,6 @@ li a {
     font-style: normal;
     font-weight: 600;
     line-height: 64px;
-    padding-top: 40px;
+    padding-top: 128px;
+    padding-bottom: 47px;
 }
