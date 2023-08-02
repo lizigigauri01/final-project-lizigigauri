@@ -173,6 +173,7 @@ li a {
 .s3 {
     display: flex;
     margin-top: 135px;
+    justify-content: space-between;
 }
 
 .s3left h3 {
@@ -197,10 +198,7 @@ li a {
     padding-right: 136px;
 }
 
-.N1 {
-    display: flex;
-}
-.N1 h1 {
+.answer h1 {
     color: #2405F2;
     text-align: center;
     font-family: Poppins;
@@ -210,7 +208,7 @@ li a {
     line-height: 36px;
     padding-right: 53px;
 }
-.N1 p {
+.answer p {
     color:  #282938;
     font-family: Poppins;
     font-size: 24px;
@@ -218,22 +216,31 @@ li a {
     font-weight: 500;
     line-height: 36px;
     padding-bottom: 16px;
+    padding-right: 242px;
+    width: 580px;
 }
 .answer {
     display: flex;
-    flex-direction: column;
 }
-.answer h6 {
+
+.N1 h6 {
     color:  #282938;
     font-family: Poppins;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.6;
-    width: 620px;
+    width: 624px;
     padding-bottom: 60px;
+    padding-left: 78px;
 }
-
+.answer img {
+    width: 16px;
+    height: 16px;
+    margin-top: 10px;
+    transform: rotate(45deg);
+    margin-left: 130px;
+}
 
 .N2 {
     display: flex;
@@ -257,6 +264,59 @@ li a {
     font-style: normal;
     font-weight: 500;
     line-height: 36px;
-    width: 540px;
+    width: 580px;
     padding-bottom: 64px;
+}
+
+.N2 img {
+    width: 16px;
+    height: 16px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+
+
+/* SECTION 4 */
+.s4 {
+    background-color:  #F4F5F5;
+    margin-top: 215px;
+}
+.both {
+    display: flex;
+    justify-content: space-around;
+}
+.s4both h5 {
+    color:  #282938;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; 
+    width: 515px;
+    padding-bottom: 16px;
+}
+.s4 h6 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 64px;
+    margin-bottom: 4px;
+}
+
+.s4both p {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 515px;
+    padding-bottom: 80px;
+}
+
+.s4 img {
+    width: 100%;
 }
