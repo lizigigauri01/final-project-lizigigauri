@@ -57,7 +57,6 @@ li a {
     max-width: 1280px;
     width: 100%;
     margin: 0px auto;
-    border: 1px black solid;
 }
 
 .s1 {
@@ -161,6 +160,7 @@ li a {
     font-weight: 400;
     line-height: 28px; 
     margin-left: 17px;
+    margin-top: 16px;
 }
 
 .s2divimg {
@@ -336,7 +336,74 @@ li a {
     width: 100%;
 }
 
+/* SECTION 10 */
 
+.s10 {
+    margin: 128px auto;
+    max-width: 1260px;
+    width: 100%;
+}
+
+.s10 h1 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin-bottom: 48px;
+    margin-left: 357px;
+}
+
+.linecircle {
+    display: flex;
+}
+.linecircle h5 {
+    opacity: 0.4;
+    width: 224px;
+    height: 2px;
+    margin-right: 56px;
+}
+.linecircle img {
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+}
+
+.circletext {
+    display: flex;
+    margin-top: 32px;
+}
+
+.circletext div {
+    margin-right: 44px;
+}
+
+.circletext h3 {
+    color:  #282938;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+.circletext a {
+    color:  #282938;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+.circletext p {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 271px;
+}
 
 
 /* FOOOTER */
@@ -576,7 +643,6 @@ footer {
 .s7 {
     max-width: 1280px;
     width: 100%;
-    border: 1px black dotted;
     margin: 0 auto;
 }
 
@@ -615,7 +681,6 @@ footer {
 .card {
     max-width: 623px;
     width: 100%;
-    border: 1px black dotted;
     display: flex;
     flex-direction: column;
     margin-bottom: 64px;
@@ -774,3 +839,216 @@ footer {
 
 /* SECTION 9 */
 
+.s9 {
+    max-width: 1285px;
+    width: 100%;
+    margin: 128px auto;
+}
+
+.s9up h1 {
+    color: #282938;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+.s9up p {
+    color: #282938;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 64px; 
+}
+
+.tickets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ticketprice {
+    max-width: 406px;
+    width: 100%;
+    height: 754px;
+    padding-top: 64px;
+    padding-left: 48px;
+    border-radius: 12px;
+    background: #F4F6FC;
+}
+
+.price {
+    display: flex;
+}
+
+.price h1 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.price h5 {
+    color:  #2405F2;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 8px;
+    padding-top: 15px;
+}
+
+.info h4 {
+    color:  #282938;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.info h6 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    margin-bottom: 50px;
+    width: 281px;
+}
+
+.sources {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sources p {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 12px;
+}
+
+.button {
+    color: #F4F6FC;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    display: flex;
+    width: 254px;
+    height: 64px;
+    padding: 15px 51px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 41px;
+    background: #282938;
+    margin-top: 79px;
+}
+
+.ticketprice2 {
+    max-width: 406px;
+    width: 100%;
+    border: 1px black solid;
+    height: 754px;
+    padding-top: 64px;
+    padding-left: 48px;
+    border-radius: 12px;
+    background: #1C1E53;
+}
+
+.price2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.price2 h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    margin-right: 8px;
+}
+
+.price2 h5 {
+    color:#FCD980;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-top: 15px;
+}
+
+.info2 h4 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; 
+}
+
+.info2 h6 {
+    color:  #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 50px;
+    width: 281px;
+}
+
+.sources2  {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sources2 p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-left: 12px;
+}
+
+.button2 {
+    color: #282938;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
+    display: flex;
+    width: 254px;
+    height: 64px;
+    padding: 15px 51px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 41px;
+    background:  #FCD980;
+    margin-top: 79px;
+}
+
+
+
+/* CONTACTTT SECTION 11 */
