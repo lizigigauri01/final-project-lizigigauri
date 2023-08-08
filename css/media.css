@@ -1,3 +1,32 @@
+@media (max-width:1262px) {
+    .cardwrapper {
+        max-width: 100%;
+        justify-content: center;
+    }
+}
+
+
+
+
+@media (max-width:1235px) {
+    .tickets {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+@media (max-width:1033px) {
+    .login {
+        height: 1100px;
+    }
+}
+
+
+
+
+
 @media (max-width:1027px) {
     .emineminfo p {
         font-size: 14px;
@@ -37,17 +66,84 @@
 
 
     .s10flex {
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 80px;
     }
     .s10 h1{
         margin-bottom: 70px;
     }
     .linetext {
-        margin-bottom: 20px;
+        margin-bottom: 100px;
+    }
+
+
+    .people {
+        flex-wrap: wrap;
+    }
+    .s5 {
+        height: 1100px;
+    }
+
+
+
+    .s12 {
+        margin-top: 150px;
+    }
+    .s12text {
+        max-width: 848px;
+        margin-left: 52px;
+        width: 100%;
+    }
+    .s12flex {
+        flex-direction: column;
+    }
+    .s12left {
+        align-items: center;
+        justify-content: center;
+        max-width: 1000px;
+        width: 100%;
+        margin-left: 52px;
+    }
+    .s12right {
+        margin-left: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        max-width: 1000px;
+    }
+    .s12right img {
+        width: 400px;
+        margin-right: 50px;
+        margin-top: 50px;
+    }
+
+
+
+
+
+    .left, .yellowpart, .downpart h1 {
+        margin-left: 0px;
+    }
+    .left, .downpart h1 {
+        margin-left: 37px;
+    }
+
+    .yellowpart {
+        max-width: 1027px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .right {
+        margin-left: 0px;
+    }
+    .uppart {
+        justify-content: space-around;
     }
 
 }
+
+
 
 
 
@@ -92,12 +188,244 @@
 
 
 
+    .linetext {
+        text-align: center;
+    }
 
+    header {
+        padding-bottom: 20px;
+    }
 }
 
 
 
 
+
+
+
+
+@media (max-width:880px) {
+    .s2div p {
+        font-size: 16px;
+    }
+    .s2div {
+        max-width: 800px;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .s2divimg {
+        width: 600px;
+        height: 400px;
+    }
+    .imgback {
+        width: 700px;
+        height: 450px;
+    }
+
+
+    .right {
+        margin-left: 100px;
+        max-width: 300px;
+        margin-bottom: 40px;
+    }
+
+
+    
+    .s12left {
+        align-items: center;
+    }
+    .s12left img {
+        max-width: 700px;
+        width: 100%;
+        height: 500px;
+    }
+    .s12text {
+        max-width: 700px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .gradient {
+        height: 500px;
+        padding-top: 0px;
+        padding-top: 250px;
+    }
+    .s12right {
+        max-width: 850px;
+    }
+    .s12right img {
+        width: 300px;
+    }
+
+}
+
+
+
+@media (max-width:828px) {
+    .tickets {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .ticketprice, .ticketprice2 {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:687px) {
+    .N1 h6 {
+        max-width: 440px;
+        width: 100%;
+    }
+    .s3left h3, .s3left h2 {
+        width: 500px;
+    }
+    .s3left {
+        text-align: center;
+    }
+
+
+
+    .s2div p {
+        max-width: 400px;
+        width: 100%;
+    }
+    .s2divimg {
+        width: 400px;
+        height: 200px;
+    }
+    .imgback {
+        width: 500px;
+        height: 250px;
+    }
+
+
+    .N2 p {
+        max-width: 400px;
+    }
+
+    .s10flex {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .s12right img{
+        height: 300px;
+        margin-top: 0px;
+    }
+    .s12right {
+        height: 700px;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .s12left img {
+        max-width: 600px;
+        width: 100%;
+        height: 400px;
+    }
+
+    .gradient {
+        padding-top: 0px;
+        padding-top: 150px;
+        height: 400px;
+        border: 1px black solid;
+    }
+
+    .nav2 {
+        flex-wrap: wrap;
+        margin-left: 200px;
+    }
+
+    .yellowpart {
+        max-width: 684px;
+        width: 100%;
+    }
+
+}
+
+
+
+@media (max-width:607px) {
+    .people div {
+        margin-bottom: 50px;
+    }
+    .s5 {
+        height: 2000px;
+    }
+
+    .s12right {
+        margin-left: 50px;
+        align-items: start;
+        border: 1px black solid;
+        max-width: 500px;
+        align-items: center;
+    }
+    .s12text {
+        width: 500px;
+        justify-content: space-between;
+        margin-left: 50px;
+    }
+    .s12text h1 {
+        font-size: 30px;
+    }
+
+
+
+    .yellowpart {
+        max-width: 607px;
+        width: 100%;
+    }
+    .left h1, .right h1 {
+        font-size: 26px;
+    }
+    .left h5, .right h5 {
+        font-size: 14px;
+        width: 200px;
+    }
+   
+}
+
+
+
+
+@media (max-width:620px) {
+    .N1 p, .N2 p {
+        font-size: 20px;
+    }
+    .N1 h6 {
+        max-width: 300px;
+    }
+    .answer img, .N2 img{
+        margin-left: 20px;
+    }
+    .answer  p, .N2 p{
+        max-width: 280px;
+        padding-right: 0px;
+    }
+    .s3 {
+        margin-left: 0px;
+        margin-left: 40px;
+    }
+}
+
+
+
+@media (max-width:524px) {
+    input[type=text], input[type=email], input[type=tel] { 
+        max-width: 500px;
+        width: 100%;
+    }
+    .login {
+        justify-content: center;
+    }
+}
 
 
 
@@ -112,6 +440,60 @@
 
 
 
+    .s12text {
+        width: 420px;
+        justify-content: space-between;
+        margin-left: 50px;
+    }
+
+    .s4both p {
+        max-width: 350px;
+        width: 100%;
+        margin-left: 80px;
+    }
+    .yellowpart h6 {
+        font-size: 14px;
+    }
+    .right {
+        margin-left: 20px;
+    }
+
+    .s3left h3, .s3left h2 {
+        width: 400px;
+    }
+    .s3left {
+        margin-left: 0px;
+        text-align: center;
+        width: 400px;
+    }
 
 
+
+
+    .abovetext p, .abovetext h1 {
+        font-size: 14px;
+    }
+
+    .card p {
+        font-size: 15px;
+        max-width: 500px;
+    }
+    .card h2 {
+        font-size: 25px;
+    }
+    .arrow div {
+        width: 500px;
+    }
+    .arrow div img {
+       margin-top: 10px;
+       width: 20px;
+       height: 10px;
+    }
+    .arrow {
+        max-width: 500px;
+        margin-top: 20px;
+    }
+    .card p, .card h2, .arrow {
+        text-align: center;
+    }
 }
