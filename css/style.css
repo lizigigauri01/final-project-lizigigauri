@@ -764,7 +764,7 @@ footer {
     display: flex;
     flex-direction: row;
     margin-top: 24px;
-    max-width: 150px;
+    max-width: 170px;
     width: 100%;
     transition: scale 400ms;
 }
@@ -786,8 +786,9 @@ footer {
     margin-right: 16px;
 }
 .arrow img {
-    width: 24px;
+    width: 20px;
     height: 25px;
+    padding-top: 10px;
 }
 
 .backg {
