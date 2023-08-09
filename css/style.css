@@ -562,6 +562,10 @@ footer {
     width: 100%;
 }
 
+.nav2 a:hover {
+    color: rgb(117, 112, 112);
+}
+
 /* SEECTION 5 */
 
 .s5 {
